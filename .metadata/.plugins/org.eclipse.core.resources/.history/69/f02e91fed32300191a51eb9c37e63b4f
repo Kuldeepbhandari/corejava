@@ -1,0 +1,11 @@
+package InterfaceandAbstract;
+abstract class TrainerModule implements TrainingModuleIntrf {
+	protected int count;
+	
+	protected abstract void Sessionattend();
+public int count()
+{
+	this.count=this.count+1;
+	return this.count;
+}
+}

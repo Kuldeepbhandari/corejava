@@ -1,0 +1,11 @@
+package Methodoverriding;
+
+class A {
+	int a=10;
+	public A(int a)
+	{
+		this.a=a;
+	}
+	
+	
+}

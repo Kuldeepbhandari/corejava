@@ -1,0 +1,15 @@
+package com.demo;
+
+ class A {
+final int a=10;
+ }
+ public class Useoffinal extends A
+ {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A b=new A();
+		System.out.println(b.a);
+
+	}
+
+}

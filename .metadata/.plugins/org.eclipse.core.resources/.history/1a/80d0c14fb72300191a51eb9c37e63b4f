@@ -1,0 +1,14 @@
+package Methodoverriding;
+
+ class AsusMobileProM1 {
+	 int a;
+	 
+	 
+public void camera(int a)
+
+{
+this.a=a;
+
+System.out.print("front camera is 5px");
+}
+}

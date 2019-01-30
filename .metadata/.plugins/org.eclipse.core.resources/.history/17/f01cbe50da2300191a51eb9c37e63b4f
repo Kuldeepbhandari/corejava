@@ -1,0 +1,30 @@
+package InterfaceandAbstract;
+
+public class QaTrainee extends TrainingModule1 {
+
+	@Override
+	public void add(int a,int b) {
+		// TODO Auto-generated method stub
+	int d=a+b;
+		System.out.println(d);
+	}
+
+	@Override
+	public Number get() {
+				
+		return 10;
+	}
+
+	@Override
+	protected void SessionAttend() {
+if (count>1)
+{
+	System.out.println("session attend");
+}
+else
+{
+	System.out.println("session is not attend");
+}
+	}
+
+}

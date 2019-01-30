@@ -1,0 +1,15 @@
+package com.demo;
+
+public class IfStatement {
+
+	public static void main(String[] args) {
+
+		int a=10;
+		int b=23;
+		if(a<b)
+			System.out.println("print hello");
+		else 
+			System.out.println("print hi");
+	}
+
+}

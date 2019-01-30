@@ -1,0 +1,27 @@
+package com.demo;
+class Abc 
+{
+	 public void sum()
+	{
+		System.out.println("hello");
+	}
+}
+
+class Bd extends Abc {
+
+	
+		 public void sum()
+		{
+			System.out.println("hi");
+		}
+
+	}
+public class MethodOverriding
+{
+	public static void main(String args[])
+	{
+		Bd d=new Bd();
+		d.sum();
+	}
+}
+

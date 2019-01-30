@@ -1,0 +1,13 @@
+package com.Interface;
+ abstract class Hello
+{
+	public abstract void m1();
+	
+		
+	}
+	
+
+public class AbstractClassA {
+	
+
+}

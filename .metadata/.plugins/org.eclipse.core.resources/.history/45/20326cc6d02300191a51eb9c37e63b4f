@@ -1,0 +1,23 @@
+package InterfaceandAbstract;
+
+public class QaTrainee extends TrainingModule1 {
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void get() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void SessionAttend() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

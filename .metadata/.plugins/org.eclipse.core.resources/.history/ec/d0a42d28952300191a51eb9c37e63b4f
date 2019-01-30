@@ -1,0 +1,26 @@
+package com.methodoverloading;
+class ChangeArgument
+{
+	public static int sum(int a,int b)
+	
+	{
+	return a+b;
+		/*int add=a+b;
+		System.out.println(add);*/
+	}
+	public static int sum(int a,int b,int c)
+	{
+		return a*b+c;
+		/*int add=a+b+c;
+		System.out.println(add);*/
+	}
+}
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChangeArgument.sum(10,20 );
+		ChangeArgument.sum(10, 20, 30);
+	}
+
+}

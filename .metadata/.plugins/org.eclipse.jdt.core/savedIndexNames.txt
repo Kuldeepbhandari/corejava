@@ -1,0 +1,19 @@
+INDEX VERSION 1.127+C:\Users\ANR36\Documents\.metadata\.plugins\org.eclipse.jdt.core
+4072359231.index
+749553863.index
+752441731.index
+2885052287.index
+2699556565.index
+2228626587.index
+2595087474.index
+3194794481.index
+251634973.index
+2146663672.index
+1385717098.index
+3142451120.index
+2929758950.index
+2599857150.index
+3245370699.index
+3676746236.index
+3431953650.index
+1500549298.index

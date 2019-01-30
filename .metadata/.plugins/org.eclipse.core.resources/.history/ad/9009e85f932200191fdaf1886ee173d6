@@ -1,0 +1,17 @@
+package com.demo;
+
+public class IncrementDecrement {
+  
+	public static void main(String[] args) {
+ int a=10;
+ int b=12;
+ a++;  //10  in heap 11
+ b++;    //12 in heap 13
+ a++;
+ ++a;
+ ++b;
+ System.out.println(a);
+ System.out.println(b);
+	}
+
+}

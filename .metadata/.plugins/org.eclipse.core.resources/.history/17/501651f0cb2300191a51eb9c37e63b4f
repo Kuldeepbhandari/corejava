@@ -1,0 +1,5 @@
+package InterfaceandAbstract;
+
+public interface TrainingModule {
+
+}

@@ -1,0 +1,6 @@
+package InterfaceandAbstract;
+
+public interface TrainingModule {
+public abstract void add(int a,int b);
+public abstract Number get();
+}

@@ -1,0 +1,8 @@
+package com.Interface;
+
+abstract class TraineeAbstract implements Trainee {
+	public abstract void Qateam();
+	public abstract void Devteam();
+	
+
+}

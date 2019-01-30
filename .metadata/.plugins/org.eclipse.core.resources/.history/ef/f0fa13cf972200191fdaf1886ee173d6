@@ -1,0 +1,23 @@
+package com.demo1;
+
+ public class UseProtected {
+	protected int a=12;
+	public static void main(String[] args) {
+		//UseProtected up = new UseProtected();
+		B b=new B();
+		
+		System.out.println(b.a);
+
+
+
+	}
+
+}
+ class B extends UseProtected
+ {
+	 UseProtected b =new B();
+	
+
+	 
+	 
+ }

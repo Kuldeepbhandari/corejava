@@ -1,0 +1,10 @@
+package Methodoverriding;
+
+public class C extends B {
+	int a=30;
+	void show()
+	{
+		System.out.println(this.a);
+	}
+
+}

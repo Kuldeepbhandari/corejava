@@ -1,0 +1,26 @@
+package com.methodoverloading;
+class Hello
+{
+	int a,b;
+	public Hello(int a)
+	{
+		this.a=a;
+		this.b=b;
+		System.out.println("constructor overloading");
+	}
+	public Hello(int a,int b)
+	{
+		System.out.println("overloaded constructor");
+	}
+}
+
+public class ConstructorOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Hello h=new Hello(10,320);s
+
+
+	}
+
+}

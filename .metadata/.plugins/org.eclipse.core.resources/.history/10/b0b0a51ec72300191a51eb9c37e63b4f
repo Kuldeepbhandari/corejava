@@ -1,0 +1,6 @@
+package com.Interface;
+
+abstract class TraineeAbstract implements Trainee {
+	
+
+}
