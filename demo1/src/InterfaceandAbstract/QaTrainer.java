@@ -12,7 +12,7 @@ public class QaTrainer extends TrainerModule {
 
 	@Override
 	public Number get() {
-		// TODO Auto-generated method stub
+
 		return 10;
 	}
 

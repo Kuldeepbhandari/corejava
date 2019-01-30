@@ -1,6 +1,6 @@
 package InterfaceandAbstract;
 
-public class AppMain {
+public class AppMain extends QaTrainee {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,7 +10,7 @@ public class AppMain {
 		tm.get();
 		System.out.println(tm.count());
 		System.out.println(tm.count());
-		System.out.println(tm.SessionAttend());
+		((QaTrainee) tm).SessionAttend();
 		
 	
 

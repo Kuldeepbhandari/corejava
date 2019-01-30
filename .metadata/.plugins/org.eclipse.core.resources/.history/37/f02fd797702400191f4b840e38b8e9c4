@@ -1,0 +1,17 @@
+package com.constructor1;
+
+public class Employee {
+	
+	Employee()
+	{
+		System.out.println("0-arg const");
+	}
+	Employee(int a)
+	{
+		System.out.println("1-arg const");
+	}
+	Employee(int a,int b)
+	{
+		System.out.println("2-arg const");
+	}
+}

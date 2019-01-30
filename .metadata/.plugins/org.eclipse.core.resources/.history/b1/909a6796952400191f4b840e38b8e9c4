@@ -1,0 +1,20 @@
+package com.superkeyword;
+
+ public class SuperClassMethodCallingMain extends SuperClassMethodCalling {
+	 void m2()
+	 {
+		 
+		 System.out.println("this is child class m2 method");
+	 }
+	 void show()
+	 {
+		 super.m1();
+		 this.m2();
+		 
+	 }
+	 public static void main(String[] args) {
+		 SuperClassMethodCallingMain spc=new SuperClassMethodCallingMain();
+		 spc.show();
+	}
+ 
+}

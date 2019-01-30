@@ -1,0 +1,13 @@
+package com.statickeyword;
+
+public class StaticVariable {
+private static int a;
+public void count()
+{
+	a++;
+}
+public static void main(String[] args) {
+	StaticVariable sv=new StaticVariable();
+	sv.count();
+}
+}

@@ -16,8 +16,8 @@ public class QaTrainee extends TrainingModule1 {
 	}
 
 	@Override
-	protected void SessionAttend() {
-if (count>=1)
+protected void SessionAttend() {
+if (count>0)
 {
 	System.out.println("session attend");
 }

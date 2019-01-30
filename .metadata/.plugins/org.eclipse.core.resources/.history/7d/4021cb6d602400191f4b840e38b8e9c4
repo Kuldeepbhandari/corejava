@@ -1,0 +1,30 @@
+package com.constructor;
+
+public class ParameterRizedXConstructor {
+	
+	String ename;
+	int eid;
+	double esal;
+	public ParameterRizedXConstructor(String ename,int eid,double esal)
+	{
+		this.ename=ename;
+		this.eid=eid;
+		this.esal=esal;
+	}
+	void display()
+	{
+		System.out.println("employee name is "+ename);
+		System.out.println("employee id is "+eid);
+		System.out.println("employee salary is "+esal);
+		
+	}
+	public static void main(String[] args) {
+		
+		ParameterRizedXConstructor pc=new ParameterRizedXConstructor("kuldeep", 12, 20000);
+		pc.display();
+		ParameterRizedXConstructor pc1=new ParameterRizedXConstructor("gaurav", 14, 40000);
+		
+		
+	}
+
+}

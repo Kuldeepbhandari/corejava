@@ -1,0 +1,3 @@
+package com.superkeyword;
+
+class GrandParent { int c;  GrandParent(int c)  { this.c=c; } }; class Parent extends GrandParent { int b;  Parent(int b,int c)  { super(c);   this.b=b; } }; class Child extends Parent { int a;  Child(int a,int b,int c)  { super(b,c);   this.a=a; }  void disp()  { System.out.println("child class ="+a);   System.out.println("parent class ="+b);   System.out.println("grandparent class ="+c);  }  public static void main(String[] args)  { new Child(10,20,30).disp(); } }; 

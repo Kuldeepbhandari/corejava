@@ -1,0 +1,10 @@
+package com.superkeyword;
+
+public class TestChild {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

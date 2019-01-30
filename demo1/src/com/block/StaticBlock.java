@@ -1,0 +1,37 @@
+package com.block;
+
+public class StaticBlock {
+//static block
+	static
+	{
+		System.out.println("first static block");
+	}
+	static
+	{
+		System.out.println("second static block");
+	}
+	//instance block
+	{
+		System.out.println("this is instance block");
+	}
+	{
+		System.out.println("this is second instance block");
+	}
+	 StaticBlock()
+	{
+	System.out.println("0-arg const");	
+	}
+	 StaticBlock(int a)
+	 {
+		 System.out.println("1-arg const");
+	 }
+	 StaticBlock(int a,int b)
+	 {
+		 System.out.println("2-arg const");
+	 }
+	 public static void main(String[] args) {
+		new StaticBlock();
+		new StaticBlock(12);
+		new StaticBlock(12,23);
+	}
+}

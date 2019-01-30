@@ -1,0 +1,27 @@
+package com.constructor1;
+
+public class Manager extends Employee {
+
+	public Manager()
+	{
+		this(10,20);
+		System.out.println("0 arg manager const");
+		}
+
+	public Manager(int a, int b) {
+		
+System.out.println("2-arg manger const");
+}
+
+	public Manager(int a) {
+
+System.out.println("1 arg manager cosnt");
+	}
+
+		public static void main(String[] args) {
+			Manager m=new Manager();
+		}
+
+	}
+
+

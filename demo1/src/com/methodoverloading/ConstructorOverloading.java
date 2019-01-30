@@ -1,14 +1,13 @@
 package com.methodoverloading;
 class Hello1
 {
-	int a,b;
-	public Hello1(int a,int b)
+	
+	public Hello1(int a)
 	{
-		this.a=a;
-		this.b=b;
+		;
 		System.out.println("constructor overloading");
 	}
-	public Hello1()
+	public Hello1(int a,int b)
 	{
 		System.out.println("overloaded constructor");
 	}
@@ -18,8 +17,9 @@ public class ConstructorOverloading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Hello1 h=new Hello1();
+Hello1 h=new Hello1(24);
 Hello1 h1=new Hello1(10,20);
+
 
 
 	}

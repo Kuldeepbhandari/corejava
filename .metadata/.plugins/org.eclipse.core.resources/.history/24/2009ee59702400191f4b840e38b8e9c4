@@ -1,0 +1,20 @@
+package com.constructor1;
+
+public class Manager extends Employee {
+	Manager()
+	{
+		System.out.println("0-arg manager cosnt");
+	}
+	Manager(int a)
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Manager m=new Manager();
+		
+
+	}
+
+}

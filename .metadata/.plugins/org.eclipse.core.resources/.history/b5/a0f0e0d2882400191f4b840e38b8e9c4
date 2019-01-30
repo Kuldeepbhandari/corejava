@@ -1,0 +1,11 @@
+package com.Inheritance;
+
+ class MultilevelB extends MultiLevelA{
+	public void m1()
+	{
+		System.out.println("method of multilevelB m3");
+	}
+
+	
+
+}

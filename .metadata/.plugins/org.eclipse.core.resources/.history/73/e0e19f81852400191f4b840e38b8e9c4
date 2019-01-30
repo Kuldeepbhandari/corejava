@@ -1,0 +1,14 @@
+package com.casting;
+
+public class UpCasting {
+
+	int i=100;
+	char c='c';
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		UpCasting u=new 
+
+	}
+
+}
