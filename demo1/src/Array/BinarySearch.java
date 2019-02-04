@@ -1,10 +1,17 @@
 package Array;
 
+import java.util.Scanner;
+
 public class BinarySearch {
 
 	public static void main(String[] args) {
 		int []a={2,5,7,9,11,14,15,18,20,22};
-		int search=14;
+		int z;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the array element");
+		z=s.nextInt();
+		
+		int search=1;
 		int li=0;
 		int hi=a.length-1;
 		int mid=(li+hi)/2;

@@ -28,7 +28,7 @@ public static void add(  int[] arr)
 	System.out.println("How many no of item you want increase");
 	z=s.nextInt();
 		
-		if (arr.length<=5)
+		if (arr.length<=arr.length)
 		{
 			int arr1[]=new  int[arr.length+z];
 			for(int i=0;i<arr1.length;i++)
@@ -43,14 +43,8 @@ public static void delete(int []arr){
 	Scanner s=new Scanner(System.in);
 	System.out.println("How many no of item you want delete");
 	z=s.nextInt();
-	if(arr.length=<9)
-	{
-	int arr2[]=new int [arr.length-z];
-	for(int i=0;i<arr2.length;i++)
-		System.out.println(arr2[i]);
 	
-	
-}
+
 }
 }
 
